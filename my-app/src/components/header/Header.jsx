@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
 const Header = () => {
-    return (
-        <header>
-            <h1>My First React App</h1>
-            <p>Welcome to my first React app!</p>
-        </header>
-    )
-  }
-  
-  export default Header
+  return (
+    <ul class="list-group">
+      <li className="list-group-item">An item</li>
+      <li className="list-group-item">A second item</li>
+      <li className="list-group-item">A third item</li>
+      <li className="list-group-item">A fourth item</li>
+      <li className="list-group-item">And a fifth one</li>
+    </ul>
+  );
+};
+
+export default Header;
