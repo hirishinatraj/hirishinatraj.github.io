@@ -4,7 +4,7 @@ import Header from "./components/header/Header";
 const App = () => {
   return (
     <>
-      <Header text={'Hello World!'} />
+      <Header texter={"Hello World!"} />
     </>
   );
 };
