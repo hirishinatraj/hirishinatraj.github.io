@@ -1,5 +1,5 @@
 import React from "react";
-const Header = ({ texter, hea }) => {
+const Header = ({ texter }) => {
   return <h1 className="header">{texter}</h1>;
 };
 
